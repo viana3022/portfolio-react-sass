@@ -8,13 +8,15 @@ import InformationContainer from './InformationContainer';
 
 
 const Sidebar = () => {
-    return <aside id="sidebar">
+    return (
+    <aside id="sidebar">
         <img src={Avatar} alt="Vinicius Viana" />
         <p className="title">Desenvolvedor</p>
         <SocialNetworks />
         <InformationContainer />
-        <a href="" className="btn">Download CV</a>
-    </aside>;
-}
+        <a href="#" className="btn">Download CV</a>
+    </aside>
+    );
+};
 
 export default Sidebar
